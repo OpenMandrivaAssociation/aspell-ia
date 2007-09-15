@@ -22,7 +22,7 @@ BuildRequires: aspell >= 0.50
 BuildRequires: make
 Requires:      aspell >= 0.50
 
-# Mandrake Stuff
+# Mandriva Stuff
 #there is currently no interlingua locale
 #Requires:      locales-%{languagecode}
 Provides:      aspell-dictionary
