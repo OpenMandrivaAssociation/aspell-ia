@@ -46,14 +46,14 @@ An %{languageenglazy} dictionary for use with aspell, a spelling checker.
 %make
 
 %install
-rm -fr $RPM_BUILD_ROOT
+rm -fr %{buildroot}
 
 %makeinstall_std
 
 chmod 644 Copyright README* doc/*
 
 %clean
-rm -fr $RPM_BUILD_ROOT
+rm -fr %{buildroot}
 
 %files
 %defattr(-,root,root)
