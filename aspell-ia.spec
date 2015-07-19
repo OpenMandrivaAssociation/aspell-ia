@@ -10,7 +10,7 @@
 Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
 Version:	0.50.1
-Release:	19
+Release:	20
 Group:		System/Internationalization
 Url:		http://aspell.net/
 License:	LGPLv2
