@@ -16,6 +16,11 @@ Url:		https://aspell.net/
 License:	LGPLv2
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell-%{languagecode}-%{src_ver}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	aspell >= 0.50
 Requires:	aspell >= 0.50
 # Mandriva Stuff
